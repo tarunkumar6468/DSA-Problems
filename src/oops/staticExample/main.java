@@ -11,5 +11,6 @@ public class main {
         System.out.println(tarun.population);//iske liye bhi population 3 sbke liye population 3
         System.out.println(karan.population); // because population is static variable so that's
         System.out.println(arjun.population);// it's all of them store the value to each other
+        
     }
 }
