@@ -5,7 +5,7 @@ public class human {
     String name;
     int salary;
     boolean married;
-   static int population;
+   static int population;  
 
     public human(int age,String name, int salary,boolean married){
         this.age = age;
