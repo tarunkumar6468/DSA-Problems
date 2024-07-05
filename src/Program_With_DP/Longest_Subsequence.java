@@ -64,7 +64,6 @@ public class Longest_Subsequence {
                 j--;
             }
         }
-
         // The lcs is constructed backwards, so reverse it
         return lcs.reverse().toString();
     }
