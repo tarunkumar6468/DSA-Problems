@@ -13,25 +13,19 @@ public class FizzBuzz {
             System.out.print(as+" ");
         }
 
-
-
-
     }
     public static List<String>finalAns(int n){
-        List<String>list = new ArrayList<>();
-        for(char i = 1; i<=n; i++){
+        List<String> list = new ArrayList<>();
+        for (char i = 1; i <= n; i++) {
 
-            if(i%3==0  && i%5==0 && i>2){
+            if (i % 3 == 0 && i % 5 == 0 && i > 2) {
 
                 list.add("FizzBuzz");
-            }
-            else if(i%3==0 && i>2){
+            } else if (i % 3 == 0 && i > 2) {
                 list.add("Fizz");
-            }
-            else if(i%5==0 &&  i>2){
+            } else if (i % 5 == 0 && i > 2) {
                 list.add("Buzz");
-            }
-            else{
+            } else {
                 list.add(Integer.toString(i));
             }
         }
